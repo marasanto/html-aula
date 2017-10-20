@@ -6,6 +6,7 @@ body{
 .topo {
 	height:30px;
 	background-color:#333333;
+	color: #fff;
 }
 .topoint {
 	width:100%;
@@ -20,8 +21,9 @@ body{
 	}
 .toporight{
 	width: 50%;
-	height:30px;
+	height:28px;
 	float:right;
+	margin-top: 2px;
 }
 .topoleft ul{
 	margin: 0;
@@ -41,4 +43,15 @@ body{
 }
 .topoleft li .ativo{
 	color:blue;
+}
+.topobusca{
+	width: 110px;
+	height: 26px;
+	outline: 0;
+}
+.toporight a {
+	float: right;
+}
+.toporight input {
+		float: right;
 }
